@@ -1,0 +1,11 @@
+
+Welcome to the Toxin theme and color scheme.
+
+To activate, add or replace your current theme and/or color scheme settings with this code:
+
+{
+	"theme": "Toxin.sublime-theme",
+	"color_scheme": "Packages/Theme - Toxin/Toxin.tmTheme"
+}
+
+*** IMPORTANT - Restart Sublime Text after installing and activating to properly apply the theme ***
