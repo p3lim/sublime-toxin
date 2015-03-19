@@ -2,7 +2,7 @@
 
 A colorful theme and color scheme for the [Sublime Text](//sublimetext.com/) editor.
 
-![Screenshot](https://cloud.githubusercontent.com/assets/26496/3240322/f3a87836-f124-11e3-9c24-cd0e3bb8401b.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/26496/6737169/4608883c-ce6a-11e4-89d9-a19ce2742522.png)
 
 ## Options
 
