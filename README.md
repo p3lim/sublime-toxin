@@ -1,4 +1,4 @@
-# Toxin
+# [Toxin](https://packagecontrol.io/packages/Theme%20-%20Toxin)
 
 A colorful theme and color scheme for the [Sublime Text](//sublimetext.com/) editor.
 
