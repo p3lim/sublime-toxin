@@ -75,6 +75,57 @@
 		"attributes": ["transient"],
 		"font.italic": true
 	},
+	{
+		// Tab close button
+		"class": "tab_close_button",
+		"content_margin": [0, 0],
+		"layer0.texture": "Theme - Toxin/textures/close.png",
+		"layer0.opacity": 0.3,
+
+		// Dirty tab
+		"layer1.texture": "Theme - Toxin/textures/close.png",
+		"layer1.tint": [140, 68, 94],
+		// "layer1.tint": [210, 102, 141],
+		"layer1.opacity": 0
+	},
+	{
+		// Respect "show_tab_close_buttons" setting
+		"class": "tab_close_button",
+		"settings": ["show_tab_close_buttons"],
+		"content_margin": [8, 8]
+	},
+	{
+		// Tab close button hover
+		"class": "tab_close_button",
+		"attributes": ["hover"],
+		"layer0.opacity": 0.8
+	},
+	{
+		// Tab close button pressed
+		"class": "tab_close_button",
+		"attributes": ["pressed"],
+		"layer0.opacity": 0.3
+	},
+	{
+		// Tab close button dirty state
+		"class": "tab_close_button",
+		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+		"layer1.opacity": 1
+	},
+	{
+		// Tab close button hover dirty state
+		"class": "tab_close_button",
+		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+		"attributes": ["hover"],
+		"layer1.tint": [252, 122, 169],
+	},
+	{
+		// Tab close button pressed dirty state
+		"class": "tab_close_button",
+		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+		"attributes": ["pressed"],
+		"layer1.tint": [140, 68, 94],
+	},
 
 // FOLD BUTTONS
 	{

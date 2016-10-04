@@ -29,6 +29,10 @@ A colorful theme and color scheme for the [Sublime Text](//sublimetext.com/) edi
 
 - Hides unfolded (-) icons in the gutter (unless hovering them).
 
+`show_tab_close_buttons`:
+
+- Shows close tab buttons (enabled by default).
+
 ## Installation
 
 ##### Using the package manager
