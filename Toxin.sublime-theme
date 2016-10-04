@@ -85,7 +85,6 @@
 		// Dirty tab
 		"layer1.texture": "Theme - Toxin/textures/close.png",
 		"layer1.tint": [140, 68, 94],
-		// "layer1.tint": [210, 102, 141],
 		"layer1.opacity": 0
 	},
 	{
@@ -117,14 +116,14 @@
 		"class": "tab_close_button",
 		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 		"attributes": ["hover"],
-		"layer1.tint": [252, 122, 169],
+		"layer1.tint": [252, 122, 169]
 	},
 	{
 		// Tab close button pressed dirty state
 		"class": "tab_close_button",
 		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 		"attributes": ["pressed"],
-		"layer1.tint": [140, 68, 94],
+		"layer1.tint": [140, 68, 94]
 	},
 
 // FOLD BUTTONS
@@ -133,7 +132,7 @@
 		"class": "fold_button_control",
 		"content_margin": [8, 8],
 		"layer0.texture": "Theme - Toxin/textures/fold-closed.png",
-		"layer0.opacity": 0.3,
+		"layer0.opacity": 0.3
 	},
 	{
 		// Fold button hover
@@ -168,7 +167,7 @@
 		// Standard vertical scroll bar
 		"class": "scroll_bar_control",
 		"layer0.tint": [38, 38, 38],
-		"layer0.opacity": 1,
+		"layer0.opacity": 1
 	},
 	{
 		// Standard horizontal scroll bar
@@ -303,7 +302,7 @@
 		// Sidebar heading
 		"class": "sidebar_heading",
 		"color": [184, 205, 68],
-		"font.bold": true,
+		"font.bold": true
 	},
 	{
 		// Sidebar heading hidden
@@ -403,7 +402,7 @@
 		// Text input field on quick panel
 		"class": "text_line_control",
 		"parents": [{"class": "overlay_control"}],
-		"layer0.tint": [38, 38, 38],
+		"layer0.tint": [38, 38, 38]
 	},
 
 // QUICK PANEL
@@ -411,12 +410,12 @@
 		// Quick panel background
 		"class": "overlay_control",
 		"layer0.tint": [38, 38, 38],
-		"layer0.opacity": 1,
+		"layer0.opacity": 1
 	},
 	{
 		// Quick panel container
 		"class": "quick_panel",
-		"row_padding": 4,
+		"row_padding": 4
 	},
 	{
 		// Quick panel row
@@ -464,7 +463,7 @@
 		// Mini quick panel row selected
 		"class": "mini_quick_panel_row",
 		"attributes": ["selected"],
-		"layer0.tint": [57, 57, 57],
+		"layer0.tint": [57, 57, 57]
 	},
 
 // TEXT COMPLETION DROPDOWN
