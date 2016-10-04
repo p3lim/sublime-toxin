@@ -7,21 +7,26 @@ A colorful theme and color scheme for the [Sublime Text](//sublimetext.com/) edi
 ## Options
 
 `use_minimap_as_scrollbar`:
+
 - Use the minimap as the vertical scrollbar, hides the normal vertical scrollbar.
 - Requires `always_show_minimap_viewport` setting to be `true`.
 
 `mouse_wheel_switches_tabs`:
+
 - Enables scrolling through tabs with the mouse wheel.
 - Requires `enable_tab_scrolling` setting to be `false`.
 
 `hide_sidebar_heading`:
+
 - Hides the headers in the sidebar.
 - Works best when _not_ showing open files, only file/project tree.
 
 `highlight_modified_tabs`:
+
 - Shows an indicator on the tabs if a file is dirty (changed, unsaved).
 
 `hide_gutter_unfolded`:
+
 - Hides unfolded (-) icons in the gutter (unless hovering them).
 
 ## Installation
