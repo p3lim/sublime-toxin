@@ -21,6 +21,9 @@ A colorful theme and color scheme for the [Sublime Text](//sublimetext.com/) edi
 `highlight_modified_tabs`:
 - Shows an indicator on the tabs if a file is dirty (changed, unsaved).
 
+`hide_gutter_unfolded`:
+- Hides unfolded (-) icons in the gutter (unless hovering them).
+
 ## Installation
 
 ##### Using the package manager

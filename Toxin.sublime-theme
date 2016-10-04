@@ -97,6 +97,18 @@
 		"layer0.texture": "Theme - Toxin/textures/fold-open.png",
 		"layer0.opacity": 0.1
 	},
+	{
+		"class": "fold_button_control",
+		"settings": ["hide_gutter_unfolded"],
+		"attributes": ["expanded"],
+		"layer0.opacity": 0
+	},
+	{
+		"class": "fold_button_control",
+		"settings": ["hide_gutter_unfolded"],
+		"attributes": ["hover"],
+		"layer0.opacity": 0.7
+	},
 
 // STANDARD SCROLLBARS
 	{
