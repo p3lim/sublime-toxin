@@ -98,12 +98,14 @@
 		"layer0.opacity": 0.1
 	},
 	{
+		// Hide unfolded button setting
 		"class": "fold_button_control",
 		"settings": ["hide_gutter_unfolded"],
 		"attributes": ["expanded"],
 		"layer0.opacity": 0
 	},
 	{
+		// Always show unfolded button while hovering
 		"class": "fold_button_control",
 		"settings": ["hide_gutter_unfolded"],
 		"attributes": ["hover"],
