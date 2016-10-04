@@ -81,8 +81,8 @@
 		// Fold button closed
 		"class": "fold_button_control",
 		"content_margin": [8, 8],
-		"layer0.texture": "Theme - Default/arrow_right_over.png",
-		"layer0.opacity": 0.2,
+		"layer0.texture": "Theme - Toxin/textures/fold-closed.png",
+		"layer0.opacity": 0.3,
 	},
 	{
 		// Fold button hover
@@ -94,7 +94,8 @@
 		// Fold button expanded
 		"class": "fold_button_control",
 		"attributes": ["expanded"],
-		"layer0.texture": "Theme - Default/arrow_down_over.png"
+		"layer0.texture": "Theme - Toxin/textures/fold-open.png",
+		"layer0.opacity": 0.1
 	},
 
 // STANDARD SCROLLBARS
