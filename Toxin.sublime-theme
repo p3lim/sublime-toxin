@@ -516,7 +516,7 @@
 	{
 		// Regex button
 		"class": "icon_regex",
-		"layer0.texture": "Theme - Default/icons/find_regex.png",
+		"layer0.texture": "Theme - Toxin/textures/panel/find_regex.png",
 		"layer0.tint": [81, 81, 81],
 		"layer0.opacity": 1,
 		"content_margin": 8
@@ -530,7 +530,7 @@
 	{
 		// Case sensitive button
 		"class": "icon_case",
-		"layer0.texture": "Theme - Default/icons/find_case.png",
+		"layer0.texture": "Theme - Toxin/textures/panel/find_case.png",
 		"layer0.tint": [81, 81, 81],
 		"layer0.opacity": 1,
 		"content_margin": 8
@@ -544,7 +544,7 @@
 	{
 		// Whole word button
 		"class": "icon_whole_word",
-		"layer0.texture": "Theme - Default/icons/find_wholeword.png",
+		"layer0.texture": "Theme - Toxin/textures/panel/find_wholeword.png",
 		"layer0.tint": [81, 81, 81],
 		"layer0.opacity": 1,
 		"content_margin": 8
@@ -558,7 +558,7 @@
 	{
 		// Show context button
 		"class": "icon_context",
-		"layer0.texture": "Theme - Default/icons/context.png",
+		"layer0.texture": "Theme - Toxin/textures/panel/context.png",
 		"layer0.tint": [81, 81, 81],
 		"layer0.opacity": 1,
 		"content_margin": 8
@@ -572,7 +572,7 @@
 	{
 		// Use buffer button
 		"class": "icon_use_buffer",
-		"layer0.texture": "Theme - Default/icons/use_buffer.png",
+		"layer0.texture": "Theme - Toxin/textures/panel/use_buffer.png",
 		"layer0.tint": [81, 81, 81],
 		"layer0.opacity": 1,
 		"content_margin": 8
@@ -586,7 +586,7 @@
 	{
 		// Wrap button
 		"class": "icon_wrap",
-		"layer0.texture": "Theme - Default/icons/find_wrap.png",
+		"layer0.texture": "Theme - Toxin/textures/panel/find_wrap.png",
 		"layer0.tint": [81, 81, 81],
 		"layer0.opacity": 1,
 		"content_margin": 8
@@ -600,7 +600,7 @@
 	{
 		// In selection button
 		"class": "icon_in_selection",
-		"layer0.texture": "Theme - Default/icons/find_inselection.png",
+		"layer0.texture": "Theme - Toxin/textures/panel/find_inselection.png",
 		"layer0.tint": [81, 81, 81],
 		"layer0.opacity": 1,
 		"content_margin": 8
@@ -614,7 +614,7 @@
 	{
 		// Preserve case button
 		"class": "icon_preserve_case",
-		"layer0.texture": "Theme - Default/icons/replace_preserve_case.png",
+		"layer0.texture": "Theme - Toxin/textures/panel/replace_preserve_case.png",
 		"layer0.tint": [81, 81, 81],
 		"layer0.opacity": 1,
 		"content_margin": 8
@@ -628,7 +628,7 @@
 	{
 		// Highlight matches button
 		"class": "icon_highlight",
-		"layer0.texture": "Theme - Default/icons/find_highlight.png",
+		"layer0.texture": "Theme - Toxin/textures/panel/find_highlight.png",
 		"layer0.tint": [81, 81, 81],
 		"layer0.opacity": 1,
 		"content_margin": 8
