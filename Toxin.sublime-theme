@@ -377,7 +377,7 @@
 		// File not tracked by VCS
 		"class": "sidebar_label",
 		"parents": [
-			{"class": "tree_row", "attributes": ["!expandable"]},
+			{"class": "tree_row", "attributes": ["!expanded"]},
 			{"class": "file_system_entry", "attributes": ["untracked"]}
 		],
 		"color": [255, 195, 0]
@@ -386,7 +386,7 @@
 		// File modified in VCS
 		"class": "sidebar_label",
 		"parents": [
-			{"class": "tree_row", "attributes": ["!expandable"]},
+			{"class": "tree_row", "attributes": ["!expanded"]},
 			{"class": "file_system_entry", "attributes": ["modified"]}
 		],
 		"color": [255, 195, 0]
@@ -395,7 +395,7 @@
 		// File added to VCS (when a new file is staged)
 		"class": "sidebar_label",
 		"parents": [
-			{"class": "tree_row", "attributes": ["!expandable"]},
+			{"class": "tree_row", "attributes": ["!expanded"]},
 			{"class": "file_system_entry", "attributes": ["added"]}
 		],
 		"color": [187, 255, 0]
@@ -404,7 +404,7 @@
 		// File staged to VCS (without further modifications)
 		"class": "sidebar_label",
 		"parents": [
-			{"class": "tree_row", "attributes": ["!expandable"]},
+			{"class": "tree_row", "attributes": ["!expanded"]},
 			{"class": "file_system_entry", "attributes": ["staged", "!modified"]}
 		],
 		"color": [187, 255, 0]
@@ -413,7 +413,7 @@
 		// File ignored by VCS
 		"class": "sidebar_label",
 		"parents": [
-			{"class": "tree_row", "attributes": ["!expandable"]},
+			{"class": "tree_row", "attributes": ["!expanded"]},
 			{"class": "file_system_entry", "attributes": ["ignored", "!staged"]}
 		],
 		"color": [90, 90, 90]
