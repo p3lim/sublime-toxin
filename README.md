@@ -3,6 +3,10 @@
 A colorful theme and color scheme for the [Sublime Text](//sublimetext.com/) editor.
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/26496/19066717/e92fd1a6-8a1a-11e6-812d-0a702ef55fbd.png)
+Git status in sidebar (uncollapsed vs collapsed directories with modified content):
+
+![Git sidebar, uncollapsed](https://user-images.githubusercontent.com/26496/49298983-f23f5300-f4be-11e8-91a7-9e0ecd0cd6a4.png)
+![Git sidebar, collapsed](https://user-images.githubusercontent.com/26496/49298987-f4091680-f4be-11e8-866a-a5d6a36c719c.png)
 
 ## Options
 
