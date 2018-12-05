@@ -412,10 +412,7 @@
 	{
 		// File ignored by VCS
 		"class": "sidebar_label",
-		"parents": [
-			{"class": "tree_row", "attributes": ["!expanded"]},
-			{"class": "file_system_entry", "attributes": ["ignored", "!staged"]}
-		],
+		"parents": [{"class": "file_system_entry", "attributes": ["ignored", "!staged"]}],
 		"color": [90, 90, 90]
 	},
 	{
