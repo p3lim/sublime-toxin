@@ -296,7 +296,13 @@
 		// Sidebar row selected
 		"class": "tree_row",
 		"attributes": ["selected"],
-		"layer0.opacity": 1
+		"layer0.opacity": 0.5
+	},
+	{
+		// Sidebar row hover
+		"class": "tree_row",
+		"attributes": ["hover"],
+		"layer0.opacity": 0.8
 	},
 	{
 		// Sidebar heading
@@ -326,12 +332,6 @@
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
 		"color": [160, 160, 160]
-	},
-	{
-		// Sidebar entry hover
-		"class": "sidebar_label",
-		"parents": [{"class": "tree_row", "attributes": ["hover"]}],
-		"color": [211, 211, 211]
 	},
 	{
 		// Sidebar entry selected
