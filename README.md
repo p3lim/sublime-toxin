@@ -37,6 +37,10 @@ Git status in sidebar (uncollapsed vs collapsed directories with modified conten
 
 - Shows close tab buttons (enabled by default).
 
+`vcs_color_expanded`:
+
+- Always color parent directories of files with VCS changes in sidebar.
+
 ## Installation
 
 ##### Using the package manager
