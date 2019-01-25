@@ -33,7 +33,7 @@
 
 		// Dirty tab
 		"layer2.texture": "Theme - Toxin/textures/tab-dirty.png",
-		"layer2.tint": [140, 68, 94],
+		"layer2.tint": [255, 195, 0],
 		"layer2.opacity": 0
 	},
 	{
