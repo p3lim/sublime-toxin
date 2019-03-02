@@ -256,7 +256,8 @@
 		"class": "status_bar",
 		"content_margin": 4,
 		"layer0.tint": [30, 30, 30],
-		"layer0.opacity": 1
+		"layer0.opacity": 1,
+		"content_margin": [16, 3, 0, 3]
 	},
 	{
 		// Status bar button
@@ -453,44 +454,46 @@
 	{
 		// Standard button
 		"class": "button_control",
-		"content_margin": [4, 8, 4, 8],
 		"min_size": [64, 0],
-		"layer0.tint": [30, 30, 30],
-		"layer0.opacity": 1
+		"layer0.texture": "Theme - Toxin/textures/button-large.png",
+		"layer0.opacity": 1,
+		"content_margin": [4, 8, 4, 8]
 	},
 	{
 		// Standard button hover
 		"class": "button_control",
-		"attributes": ["hover"],
-		"layer0.tint": [46, 46, 46]
+		"attributes": ["pressed", "hover"],
+		"layer0.opacity": 0.7
 	},
 
 // TEXT INPUT FIELD
 	{
 		// Text input field
 		"class": "text_line_control",
-		"content_margin": [4, 8, 4, 8],
-		"layer0.tint": [30, 30, 30],
-		"layer0.opacity": 1
+		"layer0.texture": "Theme - Toxin/textures/input.png",
+		"layer0.opacity": 1,
+		"content_margin": [8, 8, 15, 4],
+		"color_scheme_tint": [38, 38, 38]
 	},
 	{
-		// Text input field on quick panel
+		// Text input field on quick panel (next section)
 		"class": "text_line_control",
 		"parents": [{"class": "overlay_control"}],
-		"layer0.tint": [38, 38, 38]
+		"layer0.opacity": 0,
+		"color_scheme_tint": [20, 20, 20]
 	},
 
 // QUICK PANEL
 	{
 		// Quick panel background
 		"class": "overlay_control",
-		"layer0.tint": [38, 38, 38],
-		"layer0.opacity": 1
+		"layer0.tint": [20, 20, 20],
+		"layer0.opacity": 1,
 	},
 	{
 		// Quick panel container
 		"class": "quick_panel",
-		"row_padding": 4
+		"row_padding": 8
 	},
 	{
 		// Quick panel row
@@ -584,9 +587,35 @@
 		"layer0.opacity": 1
 	},
 	{
-		// Bottom panel button group
+		// Bottom panel button group (middle)
 		"class": "icon_button_control",
-		"content_margin": 6
+		"layer0.texture": "Theme - Toxin/textures/button-middle.png",
+		"layer0.opacity": 1.0,
+		"content_margin": [6, 6, 6, 6]
+	},
+	{
+		// Bottom panel button group (left)
+		"class": "icon_button_control",
+		"attributes": ["left"],
+		"layer0.texture": "Theme - Toxin/textures/button-left.png",
+		"layer0.opacity": 1.0,
+		"content_margin": [12, 6, 6, 6]
+	},
+	{
+		// Bottom panel button group (right)
+		"class": "icon_button_control",
+		"attributes": ["right"],
+		"layer0.texture": "Theme - Toxin/textures/button-right.png",
+		"layer0.opacity": 1.0,
+		"content_margin": [6, 6, 12, 6]
+	},
+	{
+		// Bottom panel button group (no adjacent)
+		"class": "icon_button_control",
+		"attributes": ["left", "right"],
+		"layer0.texture": "Theme - Toxin/textures/button.png",
+		"layer0.opacity": 1.0,
+		"content_margin": [8, 6, 8, 6]
 	},
 	{
 		// Regex button
